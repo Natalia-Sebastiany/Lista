@@ -1,27 +1,26 @@
 programa
 {
 
-	real a, b, soma
-	funcao inicio ()
-	{
-		escreva ("Calcular Soma")
-		escreva ("\n\nDigite dois números para calcular a soma entre eles: ")
-		escreva ("\n\nNúmero 1: ")
-		leia (a)
-		escreva ("\nNúmero 2: ")
-		leia (b)
-		soma=a+b
 
-		escreva ("\nA soma destes números é: ",soma)
-		
-	}
+funcao inicio()
+{
+	real temperatura, ideal
+	escreva ("Qual é a temperatura do café (°C)? ")
+	leia (temperatura)
+	ideal= 60.0
+	escreva ("\nA temperatura do café está ideal para o consumo? ",temperatura>ideal,"\n")
+
+}
+
+
+
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 17; 
+ * @POSICAO-CURSOR = 57; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
